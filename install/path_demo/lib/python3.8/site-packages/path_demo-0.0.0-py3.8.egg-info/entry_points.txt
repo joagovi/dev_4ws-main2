@@ -1,0 +1,6 @@
+[console_scripts]
+kinematics_controller_node = path_demo.kinematics_controller_node:main
+path_publisher_node = path_demo.path_publisher_node:main
+path_visualizer = path_demo.path_visualizer:main
+robot_pose_listener = path_demo.robot_pose_listener:main
+

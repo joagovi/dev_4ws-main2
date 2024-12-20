@@ -1,0 +1,308 @@
+<?xml version="1.0" ?>
+<robot name="GAZEBO" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find GAZEBO_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find GAZEBO_description)/urdf/GAZEBO.trans" />
+<xacro:include filename="$(find GAZEBO_description)/urdf/GAZEBO.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.6699999999999998 -0.595 0.9605" rpy="0 0 0"/>
+    <mass value="25.5125"/>
+    <inertia ixx="0.01063" iyy="3.598326" izz="3.598326" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Componente55_1">
+  <inertial>
+    <origin xyz="-1.5092094240998222e-15 0.0824999999999999 2.6645352591003757e-15" rpy="0 0 0"/>
+    <mass value="55.87014030010868"/>
+    <inertia ixx="0.427484" iyy="0.739978" izz="0.427484" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.02 0.235 -0.188" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente55_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.02 0.235 -0.188" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente55_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Componente52_1">
+  <inertial>
+    <origin xyz="-1.5092094240998222e-15 -0.08250000000000002 2.6645352591003757e-15" rpy="0 0 0"/>
+    <mass value="55.87014030010868"/>
+    <inertia ixx="0.427484" iyy="0.739978" izz="0.427484" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.02 0.95 -0.188" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente52_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.02 0.95 -0.188" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente52_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Componente52_2">
+  <inertial>
+    <origin xyz="-1.5543122344752192e-15 -0.08249999999999824 2.3592239273284576e-15" rpy="0 0 0"/>
+    <mass value="55.87014030010868"/>
+    <inertia ixx="0.427484" iyy="0.739978" izz="0.427484" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-1.32 0.95 -0.188" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente52_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-1.32 0.95 -0.188" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente52_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Componente55_2">
+  <inertial>
+    <origin xyz="-1.5543122344752192e-15 0.08250000000000016 2.3592239273284576e-15" rpy="0 0 0"/>
+    <mass value="55.87014030010868"/>
+    <inertia ixx="0.427484" iyy="0.739978" izz="0.427484" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-1.32 0.235 -0.188" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente55_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-1.32 0.235 -0.188" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente55_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Componente56_1">
+  <inertial>
+    <origin xyz="-5.273559366969494e-16 0.0004661797523164146 -0.04334891845275396" rpy="0 0 0"/>
+    <mass value="15.278387051187844"/>
+    <inertia ixx="0.126398" iyy="0.105842" izz="0.112637" ixy="0.0" iyz="0.000803" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.02 0.155 -0.4355" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente56_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.02 0.155 -0.4355" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente56_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Componente53_1">
+  <inertial>
+    <origin xyz="-5.412337245047638e-16 0.00046617975231622033 -0.04334891845275396" rpy="0 0 0"/>
+    <mass value="15.27838705118784"/>
+    <inertia ixx="0.126398" iyy="0.105842" izz="0.112637" ixy="0.0" iyz="0.000803" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.02 1.035 -0.4355" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente53_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.02 1.035 -0.4355" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente53_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Componente56_2">
+  <inertial>
+    <origin xyz="-6.661338147750939e-16 0.0004661797523166922 -0.04334891845275468" rpy="0 0 0"/>
+    <mass value="15.278387051187844"/>
+    <inertia ixx="0.126398" iyy="0.105842" izz="0.112637" ixy="0.0" iyz="0.000803" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-1.32 0.155 -0.4355" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente56_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-1.32 0.155 -0.4355" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente56_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Componente53_2">
+  <inertial>
+    <origin xyz="-6.661338147750939e-16 0.00046617975231821873 -0.04334891845275468" rpy="0 0 0"/>
+    <mass value="15.27838705118784"/>
+    <inertia ixx="0.126398" iyy="0.105842" izz="0.112637" ixy="0.0" iyz="0.000803" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-1.32 1.035 -0.4355" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente53_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-1.32 1.035 -0.4355" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente53_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Componente54_1">
+  <inertial>
+    <origin xyz="0.023280000934662832 2.220446049250313e-16 -0.23734999045864524" rpy="0 0 0"/>
+    <mass value="203.9381361420331"/>
+    <inertia ixx="45.375242" iyy="7.01406" izz="41.938171" ixy="0.0" iyz="0.0" ixz="0.060058"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.02 0.595 -0.9355" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente54_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.02 0.595 -0.9355" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente54_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Componente54_2">
+  <inertial>
+    <origin xyz="0.02328000093466276 1.3322676295501878e-15 -0.23734999045864658" rpy="0 0 0"/>
+    <mass value="203.9381361420331"/>
+    <inertia ixx="45.375242" iyy="7.01406" izz="41.938171" ixy="0.0" iyz="0.0" ixz="0.060058"/>
+  </inertial>
+  <visual>
+    <origin xyz="-1.32 0.595 -0.9355" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente54_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-1.32 0.595 -0.9355" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GAZEBO_description)/meshes/Componente54_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="revolucion 9" type="continuous">
+  <origin xyz="0.0 -0.08 -0.2475" rpy="0 0 0"/>
+  <parent link="Componente56_1"/>
+  <child link="Componente55_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="revolucion 10" type="continuous">
+  <origin xyz="0.0 0.085 -0.2475" rpy="0 0 0"/>
+  <parent link="Componente53_1"/>
+  <child link="Componente52_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+</joint>
+
+<joint name="revolucion 11" type="continuous">
+  <origin xyz="0.0 0.085 -0.2475" rpy="0 0 0"/>
+  <parent link="Componente53_2"/>
+  <child link="Componente52_2"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+</joint>
+
+<joint name="revolucion 12" type="continuous">
+  <origin xyz="0.0 -0.08 -0.2475" rpy="0 0 0"/>
+  <parent link="Componente56_2"/>
+  <child link="Componente55_2"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="revolucion 13" type="continuous">
+  <origin xyz="0.0 0.44 -0.5" rpy="0 0 0"/>
+  <parent link="Componente54_1"/>
+  <child link="Componente56_1"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+</joint>
+
+<joint name="revolucion 14" type="continuous">
+  <origin xyz="0.0 -0.44 -0.5" rpy="0 0 0"/>
+  <parent link="Componente54_1"/>
+  <child link="Componente53_1"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+</joint>
+
+<joint name="revolucion 15" type="continuous">
+  <origin xyz="0.0 0.44 -0.5" rpy="0 0 0"/>
+  <parent link="Componente54_2"/>
+  <child link="Componente56_2"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+</joint>
+
+<joint name="revolucion 16" type="continuous">
+  <origin xyz="0.0 -0.44 -0.5" rpy="0 0 0"/>
+  <parent link="Componente54_2"/>
+  <child link="Componente53_2"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+</joint>
+
+<joint name="revolucion 17" type="continuous">
+  <origin xyz="0.02 -0.595 0.9355" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Componente54_1"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+</joint>
+
+<joint name="revolucion 18" type="continuous">
+  <origin xyz="1.32 -0.595 0.9355" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Componente54_2"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+</joint>
+
+</robot>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<robot name="marker">
+  <link name="marker_link">
+    <visual>
+      <geometry>
+        <sphere radius="0.2"/> <!-- Radio de la esfera -->
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 1 1"/> <!-- Color azul -->
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.2"/> <!-- Debe coincidir con el visual -->
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+  </link>
+</robot>

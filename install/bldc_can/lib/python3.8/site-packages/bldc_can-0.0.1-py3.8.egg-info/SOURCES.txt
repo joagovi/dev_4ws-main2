@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/bldc_can/bldc_can.egg-info/PKG-INFO
+../../build/bldc_can/bldc_can.egg-info/SOURCES.txt
+../../build/bldc_can/bldc_can.egg-info/dependency_links.txt
+../../build/bldc_can/bldc_can.egg-info/entry_points.txt
+../../build/bldc_can/bldc_can.egg-info/requires.txt
+../../build/bldc_can/bldc_can.egg-info/top_level.txt
+../../build/bldc_can/bldc_can.egg-info/zip-safe
+bldc_can/__init__.py
+bldc_can/bldc_can_v1.py
+bldc_can/bldc_monitor.py
+resource/bldc_can
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

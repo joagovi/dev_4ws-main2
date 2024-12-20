@@ -1,0 +1,49 @@
+running egg_info
+creating ../../build/path_demo/path_demo.egg-info
+writing ../../build/path_demo/path_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/path_demo/path_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/path_demo/path_demo.egg-info/entry_points.txt
+writing requirements to ../../build/path_demo/path_demo.egg-info/requires.txt
+writing top-level names to ../../build/path_demo/path_demo.egg-info/top_level.txt
+writing manifest file '../../build/path_demo/path_demo.egg-info/SOURCES.txt'
+reading manifest file '../../build/path_demo/path_demo.egg-info/SOURCES.txt'
+writing manifest file '../../build/path_demo/path_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/siba/dev_4ws-main2/build/path_demo/build
+creating /home/siba/dev_4ws-main2/build/path_demo/build/lib
+creating /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo
+copying path_demo/path_visualizer.py -> /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo
+copying path_demo/path_publisher_node.py -> /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo
+copying path_demo/__init__.py -> /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo
+copying path_demo/robot_pose_listener.py -> /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo
+copying path_demo/kinematics_controller_node.py -> /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo
+running install
+running install_lib
+creating /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo
+copying /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo/path_visualizer.py -> /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo
+copying /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo/path_publisher_node.py -> /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo
+copying /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo/__init__.py -> /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo
+copying /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo/robot_pose_listener.py -> /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo
+copying /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo/kinematics_controller_node.py -> /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo
+byte-compiling /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo/path_visualizer.py to path_visualizer.cpython-38.pyc
+byte-compiling /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo/path_publisher_node.py to path_publisher_node.cpython-38.pyc
+byte-compiling /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo/robot_pose_listener.py to robot_pose_listener.cpython-38.pyc
+byte-compiling /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo/kinematics_controller_node.py to kinematics_controller_node.cpython-38.pyc
+running install_data
+creating /home/siba/dev_4ws-main2/install/path_demo/share/ament_index
+creating /home/siba/dev_4ws-main2/install/path_demo/share/ament_index/resource_index
+creating /home/siba/dev_4ws-main2/install/path_demo/share/ament_index/resource_index/packages
+copying resource/path_demo -> /home/siba/dev_4ws-main2/install/path_demo/share/ament_index/resource_index/packages
+copying package.xml -> /home/siba/dev_4ws-main2/install/path_demo/share/path_demo
+creating /home/siba/dev_4ws-main2/install/path_demo/share/path_demo/launch
+copying launch/visualize_random_path.launch.py -> /home/siba/dev_4ws-main2/install/path_demo/share/path_demo/launch
+running install_egg_info
+Copying ../../build/path_demo/path_demo.egg-info to /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo-0.0.0-py3.8.egg-info
+running install_scripts
+Installing kinematics_controller_node script to /home/siba/dev_4ws-main2/install/path_demo/lib/path_demo
+Installing path_publisher_node script to /home/siba/dev_4ws-main2/install/path_demo/lib/path_demo
+Installing path_visualizer script to /home/siba/dev_4ws-main2/install/path_demo/lib/path_demo
+Installing robot_pose_listener script to /home/siba/dev_4ws-main2/install/path_demo/lib/path_demo
+writing list of installed files to '/home/siba/dev_4ws-main2/build/path_demo/install.log'

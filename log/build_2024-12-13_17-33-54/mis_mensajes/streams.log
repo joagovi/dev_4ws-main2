@@ -1,0 +1,16 @@
+[0.072s] Invoking command in '/home/siba/dev_4ws-main2/build/mis_mensajes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --build /home/siba/dev_4ws-main2/build/mis_mensajes -- -j4 -l4
+[0.560s] [  3%] Built target mis_mensajes__cpp
+[0.561s] [ 12%] Built target mis_mensajes__rosidl_generator_c
+[0.562s] [ 22%] Built target mis_mensajes__rosidl_typesupport_introspection_c
+[0.564s] [ 32%] Built target mis_mensajes__rosidl_typesupport_introspection_cpp
+[0.566s] [ 41%] Built target mis_mensajes__rosidl_typesupport_cpp
+[0.567s] [ 51%] Built target mis_mensajes__rosidl_typesupport_fastrtps_cpp
+[0.568s] [ 61%] Built target mis_mensajes__rosidl_typesupport_c
+[0.568s] [ 70%] Built target mis_mensajes__rosidl_typesupport_fastrtps_c
+[0.568s] [ 70%] Built target mis_mensajes
+[0.568s] [ 74%] Built target mis_mensajes__py
+[0.568s] [ 80%] Built target mis_mensajes__python
+[0.569s] [ 87%] Built target mis_mensajes__rosidl_typesupport_c__pyext
+[0.569s] [ 93%] Built target mis_mensajes__rosidl_typesupport_fastrtps_c__pyext
+[0.569s] [100%] Built target mis_mensajes__rosidl_typesupport_introspection_c__pyext
+[0.892s] Invoked command in '/home/siba/dev_4ws-main2/build/mis_mensajes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --build /home/siba/dev_4ws-main2/build/mis_mensajes -- -j4 -l4

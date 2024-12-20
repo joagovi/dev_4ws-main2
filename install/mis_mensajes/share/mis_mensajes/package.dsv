@@ -1,0 +1,14 @@
+source;share/mis_mensajes/hook/cmake_prefix_path.ps1
+source;share/mis_mensajes/hook/cmake_prefix_path.dsv
+source;share/mis_mensajes/hook/cmake_prefix_path.sh
+source;share/mis_mensajes/hook/ld_library_path_lib.ps1
+source;share/mis_mensajes/hook/ld_library_path_lib.dsv
+source;share/mis_mensajes/hook/ld_library_path_lib.sh
+source;share/mis_mensajes/hook/pythonpath.ps1
+source;share/mis_mensajes/hook/pythonpath.dsv
+source;share/mis_mensajes/hook/pythonpath.sh
+source;share/mis_mensajes/local_setup.bash
+source;share/mis_mensajes/local_setup.dsv
+source;share/mis_mensajes/local_setup.ps1
+source;share/mis_mensajes/local_setup.sh
+source;share/mis_mensajes/local_setup.zsh

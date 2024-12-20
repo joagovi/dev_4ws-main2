@@ -1,0 +1,27 @@
+[2.081s] Invoking command in '/home/siba/dev_4ws-main2/src/dc_motor': PYTHONPATH=/home/siba/dev_4ws-main2/build/dc_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/dc_motor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dc_motor build --build-base /home/siba/dev_4ws-main2/build/dc_motor/build install --record /home/siba/dev_4ws-main2/build/dc_motor/install.log --install-scripts $base/lib/dc_motor --single-version-externally-managed install_data
+[2.797s] running egg_info
+[2.800s] writing ../../build/dc_motor/dc_motor.egg-info/PKG-INFO
+[2.800s] writing dependency_links to ../../build/dc_motor/dc_motor.egg-info/dependency_links.txt
+[2.801s] writing entry points to ../../build/dc_motor/dc_motor.egg-info/entry_points.txt
+[2.802s] writing requirements to ../../build/dc_motor/dc_motor.egg-info/requires.txt
+[2.809s] writing top-level names to ../../build/dc_motor/dc_motor.egg-info/top_level.txt
+[2.961s] reading manifest file '../../build/dc_motor/dc_motor.egg-info/SOURCES.txt'
+[2.975s] writing manifest file '../../build/dc_motor/dc_motor.egg-info/SOURCES.txt'
+[2.975s] running build
+[2.976s] running build_py
+[2.976s] copying dc_motor/dc_motor_node_v1.py -> /home/siba/dev_4ws-main2/build/dc_motor/build/lib/dc_motor
+[2.976s] copying dc_motor/__init__.py -> /home/siba/dev_4ws-main2/build/dc_motor/build/lib/dc_motor
+[2.977s] running install
+[2.979s] running install_lib
+[2.981s] copying /home/siba/dev_4ws-main2/build/dc_motor/build/lib/dc_motor/dc_motor_node_v1.py -> /home/siba/dev_4ws-main2/install/dc_motor/lib/python3.8/site-packages/dc_motor
+[2.997s] copying /home/siba/dev_4ws-main2/build/dc_motor/build/lib/dc_motor/__init__.py -> /home/siba/dev_4ws-main2/install/dc_motor/lib/python3.8/site-packages/dc_motor
+[2.998s] byte-compiling /home/siba/dev_4ws-main2/install/dc_motor/lib/python3.8/site-packages/dc_motor/dc_motor_node_v1.py to dc_motor_node_v1.cpython-38.pyc
+[3.012s] byte-compiling /home/siba/dev_4ws-main2/install/dc_motor/lib/python3.8/site-packages/dc_motor/__init__.py to __init__.cpython-38.pyc
+[3.014s] running install_data
+[3.014s] running install_egg_info
+[3.017s] removing '/home/siba/dev_4ws-main2/install/dc_motor/lib/python3.8/site-packages/dc_motor-0.0.0-py3.8.egg-info' (and everything under it)
+[3.018s] Copying ../../build/dc_motor/dc_motor.egg-info to /home/siba/dev_4ws-main2/install/dc_motor/lib/python3.8/site-packages/dc_motor-0.0.0-py3.8.egg-info
+[3.022s] running install_scripts
+[3.061s] Installing dc_motor_node_v1 script to /home/siba/dev_4ws-main2/install/dc_motor/lib/dc_motor
+[3.063s] writing list of installed files to '/home/siba/dev_4ws-main2/build/dc_motor/install.log'
+[3.405s] Invoked command in '/home/siba/dev_4ws-main2/src/dc_motor' returned '0': PYTHONPATH=/home/siba/dev_4ws-main2/build/dc_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/dc_motor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dc_motor build --build-base /home/siba/dev_4ws-main2/build/dc_motor/build install --record /home/siba/dev_4ws-main2/build/dc_motor/install.log --install-scripts $base/lib/dc_motor --single-version-externally-managed install_data

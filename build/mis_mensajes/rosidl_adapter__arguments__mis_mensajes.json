@@ -1,0 +1,7 @@
+{
+  "package_name": "mis_mensajes",
+  "non_idl_tuples": [
+    "/home/siba/dev_4ws-main2/src/mis_mensajes:msg/AngulosInclinacion.msg",
+    "/home/siba/dev_4ws-main2/src/mis_mensajes:msg/MotorDatos.msg"
+  ]
+}

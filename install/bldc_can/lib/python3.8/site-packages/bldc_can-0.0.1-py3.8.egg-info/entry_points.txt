@@ -1,0 +1,4 @@
+[console_scripts]
+can_monitor = bldc_can.bldc_monitor:main
+can_node = bldc_can.bldc_can_v1:main
+

@@ -1,0 +1,24 @@
+[2.003s] Invoking command in '/home/siba/dev_4ws-main2/src/path_demo': PYTHONPATH=/home/siba/dev_4ws-main2/build/path_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_demo build --build-base /home/siba/dev_4ws-main2/build/path_demo/build install --record /home/siba/dev_4ws-main2/build/path_demo/install.log --install-scripts $base/lib/path_demo --single-version-externally-managed install_data
+[2.731s] running egg_info
+[2.734s] writing ../../build/path_demo/path_demo.egg-info/PKG-INFO
+[2.737s] writing dependency_links to ../../build/path_demo/path_demo.egg-info/dependency_links.txt
+[2.739s] writing entry points to ../../build/path_demo/path_demo.egg-info/entry_points.txt
+[2.741s] writing requirements to ../../build/path_demo/path_demo.egg-info/requires.txt
+[2.742s] writing top-level names to ../../build/path_demo/path_demo.egg-info/top_level.txt
+[2.871s] reading manifest file '../../build/path_demo/path_demo.egg-info/SOURCES.txt'
+[2.874s] writing manifest file '../../build/path_demo/path_demo.egg-info/SOURCES.txt'
+[2.877s] running build
+[2.879s] running build_py
+[2.882s] running install
+[2.885s] running install_lib
+[2.890s] running install_data
+[2.891s] running install_egg_info
+[2.898s] removing '/home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo-0.0.0-py3.8.egg-info' (and everything under it)
+[2.915s] Copying ../../build/path_demo/path_demo.egg-info to /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo-0.0.0-py3.8.egg-info
+[2.924s] running install_scripts
+[2.961s] Installing kinematics_controller_node script to /home/siba/dev_4ws-main2/install/path_demo/lib/path_demo
+[2.964s] Installing path_publisher_node script to /home/siba/dev_4ws-main2/install/path_demo/lib/path_demo
+[2.964s] Installing path_visualizer script to /home/siba/dev_4ws-main2/install/path_demo/lib/path_demo
+[2.964s] Installing robot_pose_listener script to /home/siba/dev_4ws-main2/install/path_demo/lib/path_demo
+[2.964s] writing list of installed files to '/home/siba/dev_4ws-main2/build/path_demo/install.log'
+[3.008s] Invoked command in '/home/siba/dev_4ws-main2/src/path_demo' returned '0': PYTHONPATH=/home/siba/dev_4ws-main2/build/path_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_demo build --build-base /home/siba/dev_4ws-main2/build/path_demo/build install --record /home/siba/dev_4ws-main2/build/path_demo/install.log --install-scripts $base/lib/path_demo --single-version-externally-managed install_data

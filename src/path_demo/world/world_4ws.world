@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default_world">
+    <!-- Define la gravedad, la física y otros parámetros del entorno -->
+    <gravity>0 0 -9.8</gravity>
+
+    <!-- Inserta un plano como el suelo -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Inserta una luz -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Tiempo de simulación -->
+    <physics type="ode">
+      <max_step_size>0.01</max_step_size>
+      <real_time_factor>1</real_time_factor>
+    </physics>
+
+    <!-- Frame "world" está implícito y es el origen de coordenadas -->
+  </world>
+</sdf>

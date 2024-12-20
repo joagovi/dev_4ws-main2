@@ -1,0 +1,29 @@
+digraph G {
+node [shape=box];
+"base_link" [label="base_link"];
+"fl_steering_link" [label="fl_steering_link"];
+"fl_wheel_link" [label="fl_wheel_link"];
+"fr_steering_link" [label="fr_steering_link"];
+"fr_wheel_link" [label="fr_wheel_link"];
+"rl_steering_link" [label="rl_steering_link"];
+"rl_wheel_link" [label="rl_wheel_link"];
+"rr_steering_link" [label="rr_steering_link"];
+"rr_wheel_link" [label="rr_wheel_link"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_link" -> "fl_steering_joint" [label="xyz: 0.077 0.031 -0.004 \nrpy: 0 -0 0"]
+"fl_steering_joint" -> "fl_steering_link"
+"fl_steering_link" -> "fl_wheel_joint" [label="xyz: 0 0.021 -0.025 \nrpy: 0 -0 -3.14159"]
+"fl_wheel_joint" -> "fl_wheel_link"
+"base_link" -> "fr_steering_joint" [label="xyz: 0.077 -0.031 -0.004 \nrpy: 0 -0 0"]
+"fr_steering_joint" -> "fr_steering_link"
+"fr_steering_link" -> "fr_wheel_joint" [label="xyz: 0 -0.021 -0.025 \nrpy: 0 -0 0"]
+"fr_wheel_joint" -> "fr_wheel_link"
+"base_link" -> "rl_steering_joint" [label="xyz: -0.077 0.031 -0.004 \nrpy: 0 -0 0"]
+"rl_steering_joint" -> "rl_steering_link"
+"rl_steering_link" -> "rl_wheel_joint" [label="xyz: 0 0.021 -0.025 \nrpy: 0 -0 -3.14159"]
+"rl_wheel_joint" -> "rl_wheel_link"
+"base_link" -> "rr_steering_joint" [label="xyz: -0.077 -0.031 -0.004 \nrpy: 0 -0 0"]
+"rr_steering_joint" -> "rr_steering_link"
+"rr_steering_link" -> "rr_wheel_joint" [label="xyz: 0 -0.021 -0.025 \nrpy: 0 -0 0"]
+"rr_wheel_joint" -> "rr_wheel_link"
+}

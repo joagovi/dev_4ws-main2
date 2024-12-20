@@ -1,0 +1,2 @@
+Invoking command in '/home/siba/dev_4ws-main2/build/bldc_can': /usr/bin/cmake /home/siba/dev_4ws-main2/src/bldc_can -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/siba/dev_4ws-main2/install/bldc_can
+Invoked command in '/home/siba/dev_4ws-main2/build/bldc_can' returned '1': /usr/bin/cmake /home/siba/dev_4ws-main2/src/bldc_can -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/siba/dev_4ws-main2/install/bldc_can

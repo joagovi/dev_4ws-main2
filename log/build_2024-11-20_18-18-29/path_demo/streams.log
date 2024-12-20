@@ -1,0 +1,51 @@
+[1.359s] Invoking command in '/home/siba/dev_4ws-main2/src/path_demo': PYTHONPATH=/home/siba/dev_4ws-main2/build/path_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_demo build --build-base /home/siba/dev_4ws-main2/build/path_demo/build install --record /home/siba/dev_4ws-main2/build/path_demo/install.log --install-scripts $base/lib/path_demo --single-version-externally-managed install_data
+[1.903s] running egg_info
+[1.904s] creating ../../build/path_demo/path_demo.egg-info
+[1.905s] writing ../../build/path_demo/path_demo.egg-info/PKG-INFO
+[1.906s] writing dependency_links to ../../build/path_demo/path_demo.egg-info/dependency_links.txt
+[1.907s] writing entry points to ../../build/path_demo/path_demo.egg-info/entry_points.txt
+[1.908s] writing requirements to ../../build/path_demo/path_demo.egg-info/requires.txt
+[1.908s] writing top-level names to ../../build/path_demo/path_demo.egg-info/top_level.txt
+[1.912s] writing manifest file '../../build/path_demo/path_demo.egg-info/SOURCES.txt'
+[2.009s] reading manifest file '../../build/path_demo/path_demo.egg-info/SOURCES.txt'
+[2.023s] writing manifest file '../../build/path_demo/path_demo.egg-info/SOURCES.txt'
+[2.023s] running build
+[2.023s] running build_py
+[2.024s] creating /home/siba/dev_4ws-main2/build/path_demo/build
+[2.024s] creating /home/siba/dev_4ws-main2/build/path_demo/build/lib
+[2.024s] creating /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo
+[2.024s] copying path_demo/path_visualizer.py -> /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo
+[2.024s] copying path_demo/path_publisher_node.py -> /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo
+[2.025s] copying path_demo/__init__.py -> /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo
+[2.025s] copying path_demo/robot_pose_listener.py -> /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo
+[2.025s] copying path_demo/kinematics_controller_node.py -> /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo
+[2.025s] running install
+[2.027s] running install_lib
+[2.033s] creating /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo
+[2.033s] copying /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo/path_visualizer.py -> /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo
+[2.033s] copying /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo/path_publisher_node.py -> /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo
+[2.033s] copying /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo/__init__.py -> /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo
+[2.033s] copying /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo/robot_pose_listener.py -> /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo
+[2.037s] copying /home/siba/dev_4ws-main2/build/path_demo/build/lib/path_demo/kinematics_controller_node.py -> /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo
+[2.042s] byte-compiling /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo/path_visualizer.py to path_visualizer.cpython-38.pyc
+[2.048s] byte-compiling /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo/path_publisher_node.py to path_publisher_node.cpython-38.pyc
+[2.052s] byte-compiling /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo/__init__.py to __init__.cpython-38.pyc
+[2.054s] byte-compiling /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo/robot_pose_listener.py to robot_pose_listener.cpython-38.pyc
+[2.059s] byte-compiling /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo/kinematics_controller_node.py to kinematics_controller_node.cpython-38.pyc
+[2.065s] running install_data
+[2.066s] creating /home/siba/dev_4ws-main2/install/path_demo/share/ament_index
+[2.066s] creating /home/siba/dev_4ws-main2/install/path_demo/share/ament_index/resource_index
+[2.066s] creating /home/siba/dev_4ws-main2/install/path_demo/share/ament_index/resource_index/packages
+[2.066s] copying resource/path_demo -> /home/siba/dev_4ws-main2/install/path_demo/share/ament_index/resource_index/packages
+[2.066s] copying package.xml -> /home/siba/dev_4ws-main2/install/path_demo/share/path_demo
+[2.067s] creating /home/siba/dev_4ws-main2/install/path_demo/share/path_demo/launch
+[2.067s] copying launch/visualize_random_path.launch.py -> /home/siba/dev_4ws-main2/install/path_demo/share/path_demo/launch
+[2.067s] running install_egg_info
+[2.080s] Copying ../../build/path_demo/path_demo.egg-info to /home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages/path_demo-0.0.0-py3.8.egg-info
+[2.082s] running install_scripts
+[2.141s] Installing kinematics_controller_node script to /home/siba/dev_4ws-main2/install/path_demo/lib/path_demo
+[2.141s] Installing path_publisher_node script to /home/siba/dev_4ws-main2/install/path_demo/lib/path_demo
+[2.142s] Installing path_visualizer script to /home/siba/dev_4ws-main2/install/path_demo/lib/path_demo
+[2.142s] Installing robot_pose_listener script to /home/siba/dev_4ws-main2/install/path_demo/lib/path_demo
+[2.142s] writing list of installed files to '/home/siba/dev_4ws-main2/build/path_demo/install.log'
+[2.203s] Invoked command in '/home/siba/dev_4ws-main2/src/path_demo' returned '0': PYTHONPATH=/home/siba/dev_4ws-main2/build/path_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_demo build --build-base /home/siba/dev_4ws-main2/build/path_demo/build install --record /home/siba/dev_4ws-main2/build/path_demo/install.log --install-scripts $base/lib/path_demo --single-version-externally-managed install_data

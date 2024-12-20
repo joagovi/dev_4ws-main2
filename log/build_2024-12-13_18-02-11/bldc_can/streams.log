@@ -1,0 +1,24 @@
+[2.138s] Invoking command in '/home/siba/dev_4ws-main2/src/bldc_can': PYTHONPATH=/home/siba/dev_4ws-main2/build/bldc_can/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bldc_can build --build-base /home/siba/dev_4ws-main2/build/bldc_can/build install --record /home/siba/dev_4ws-main2/build/bldc_can/install.log --install-scripts $base/lib/bldc_can --single-version-externally-managed install_data
+[2.905s] running egg_info
+[2.907s] writing ../../build/bldc_can/bldc_can.egg-info/PKG-INFO
+[2.908s] writing dependency_links to ../../build/bldc_can/bldc_can.egg-info/dependency_links.txt
+[2.908s] writing entry points to ../../build/bldc_can/bldc_can.egg-info/entry_points.txt
+[2.909s] writing requirements to ../../build/bldc_can/bldc_can.egg-info/requires.txt
+[2.910s] writing top-level names to ../../build/bldc_can/bldc_can.egg-info/top_level.txt
+[3.057s] reading manifest file '../../build/bldc_can/bldc_can.egg-info/SOURCES.txt'
+[3.059s] writing manifest file '../../build/bldc_can/bldc_can.egg-info/SOURCES.txt'
+[3.059s] running build
+[3.059s] running build_py
+[3.062s] copying bldc_can/bldc_can_v1.py -> /home/siba/dev_4ws-main2/build/bldc_can/build/lib/bldc_can
+[3.062s] running install
+[3.067s] running install_lib
+[3.069s] copying /home/siba/dev_4ws-main2/build/bldc_can/build/lib/bldc_can/bldc_can_v1.py -> /home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages/bldc_can
+[3.070s] byte-compiling /home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages/bldc_can/bldc_can_v1.py to bldc_can_v1.cpython-38.pyc
+[3.074s] running install_data
+[3.074s] running install_egg_info
+[3.078s] removing '/home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages/bldc_can-0.0.1-py3.8.egg-info' (and everything under it)
+[3.078s] Copying ../../build/bldc_can/bldc_can.egg-info to /home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages/bldc_can-0.0.1-py3.8.egg-info
+[3.088s] running install_scripts
+[3.127s] Installing can_node script to /home/siba/dev_4ws-main2/install/bldc_can/lib/bldc_can
+[3.129s] writing list of installed files to '/home/siba/dev_4ws-main2/build/bldc_can/install.log'
+[3.284s] Invoked command in '/home/siba/dev_4ws-main2/src/bldc_can' returned '0': PYTHONPATH=/home/siba/dev_4ws-main2/build/bldc_can/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bldc_can build --build-base /home/siba/dev_4ws-main2/build/bldc_can/build install --record /home/siba/dev_4ws-main2/build/bldc_can/install.log --install-scripts $base/lib/bldc_can --single-version-externally-managed install_data

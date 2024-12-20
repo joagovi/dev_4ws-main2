@@ -1,0 +1,197 @@
+[0.070s] Invoking command in '/home/siba/dev_4ws-main2/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/fresas:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/GAZEBO_description:/opt/ros/foxy /usr/bin/cmake /home/siba/dev_4ws-main2/src/gazebo_simulation -DCMAKE_INSTALL_PREFIX=/home/siba/dev_4ws-main2/install/gazebo_simulation
+[0.235s] -- The C compiler identification is GNU 9.4.0
+[0.384s] -- The CXX compiler identification is GNU 9.4.0
+[0.399s] -- Check for working C compiler: /usr/bin/cc
+[0.554s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.556s] -- Detecting C compiler ABI info
+[0.727s] -- Detecting C compiler ABI info - done
+[0.747s] -- Detecting C compile features
+[0.747s] -- Detecting C compile features - done
+[0.751s] -- Check for working CXX compiler: /usr/bin/c++
+[0.928s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.930s] -- Detecting CXX compiler ABI info
+[1.137s] -- Detecting CXX compiler ABI info - done
+[1.159s] -- Detecting CXX compile features
+[1.162s] -- Detecting CXX compile features - done
+[1.166s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.210s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.210s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.749s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.758s] -- Checking for module 'bullet>=2.82'
+[1.795s] --   Found bullet, version 2.88
+[2.471s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[2.821s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[3.217s] -- Found assimp: /usr/include (found version "5.0.0") 
+[3.293s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.914s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[4.980s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[5.010s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.041s] -- Searching for dependencies of ignition-math6
+[5.051s] -- Looking for OGRE...
+[5.056s] -- OGRE_PREFIX_WATCH changed.
+[5.069s] -- Checking for module 'OGRE'
+[5.144s] --   Found OGRE, version 1.9.0
+[5.236s] -- Found Ogre Ghadamon (1.9.0)
+[5.268s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[5.289s] -- Looking for OGRE_Paging...
+[5.306s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[5.306s] -- Looking for OGRE_Terrain...
+[5.321s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[5.321s] -- Looking for OGRE_Property...
+[5.336s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[5.336s] -- Looking for OGRE_RTShaderSystem...
+[5.351s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[5.351s] -- Looking for OGRE_Volume...
+[5.366s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[5.366s] -- Looking for OGRE_Overlay...
+[5.381s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[5.711s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.717s] -- Looking for ignition-transport8 -- found version 8.3.0
+[5.717s] -- Searching for dependencies of ignition-transport8
+[5.745s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[5.765s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.771s] -- Checking for module 'libzmq >= 4'
+[5.799s] --   Found libzmq , version 4.3.2
+[5.871s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[5.881s] -- Checking for module 'uuid'
+[5.914s] --   Found uuid, version 2.34.0
+[5.984s] -- Found UUID: TRUE  
+[5.990s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[5.991s] -- Searching for dependencies of ignition-msgs5
+[6.019s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.026s] -- Checking for module 'tinyxml2'
+[6.054s] --   Found tinyxml2, version 6.2.0
+[6.122s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[6.128s] -- Looking for ignition-common3 -- found version 3.14.2
+[6.129s] -- Searching for dependencies of ignition-common3
+[6.130s] -- Looking for dlfcn.h - found
+[6.131s] -- Looking for libdl - found
+[6.134s] -- Found DL: TRUE  
+[6.146s] -- Searching for <ignition-common3> component [graphics]
+[6.153s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[6.153s] -- Searching for dependencies of ignition-common3-graphics
+[6.154s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.162s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[6.163s] -- Searching for dependencies of ignition-fuel_tools4
+[6.303s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[6.322s] -- Checking for module 'jsoncpp'
+[6.353s] --   Found jsoncpp, version 1.7.4
+[6.424s] -- Found JSONCPP: TRUE  
+[6.438s] -- Checking for module 'libzip'
+[6.470s] --   Found libzip, version 1.5.1
+[6.545s] -- Found ZIP: TRUE  
+[6.547s] -- Looking for ignition-common3 -- found version 3.14.2
+[6.548s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.549s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[6.563s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[6.573s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[6.667s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.685s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.845s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.900s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.030s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.272s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[7.436s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.442s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.446s] -- Found Threads: TRUE  
+[7.692s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.818s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[7.935s] -- Configuring done
+[7.940s] -- Generating done
+[7.944s] -- Build files have been written to: /home/siba/dev_4ws-main2/build/gazebo_simulation
+[8.114s] Invoked command in '/home/siba/dev_4ws-main2/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/fresas:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/GAZEBO_description:/opt/ros/foxy /usr/bin/cmake /home/siba/dev_4ws-main2/src/gazebo_simulation -DCMAKE_INSTALL_PREFIX=/home/siba/dev_4ws-main2/install/gazebo_simulation
+[8.120s] Invoking command in '/home/siba/dev_4ws-main2/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/fresas:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/GAZEBO_description:/opt/ros/foxy /usr/bin/cmake --build /home/siba/dev_4ws-main2/build/gazebo_simulation -- -j4 -l4
+[8.197s] Invoked command in '/home/siba/dev_4ws-main2/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/fresas:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/GAZEBO_description:/opt/ros/foxy /usr/bin/cmake --build /home/siba/dev_4ws-main2/build/gazebo_simulation -- -j4 -l4
+[8.235s] Invoking command in '/home/siba/dev_4ws-main2/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/fresas:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/GAZEBO_description:/opt/ros/foxy /usr/bin/cmake --install /home/siba/dev_4ws-main2/build/gazebo_simulation
+[8.250s] -- Install configuration: ""
+[8.251s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//launch
+[8.251s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//launch/robot_sim.launch.py
+[8.252s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//launch/robot_state_publisher.launch.py
+[8.252s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models
+[8.252s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot
+[8.252s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/rs_robot.sdf
+[8.252s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes
+[8.252s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL
+[8.252s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/lidar_base
+[8.253s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/lidar_base/YDlidar_base.stl
+[8.253s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/base
+[8.253s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/base/base_link_old.stl
+[8.254s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/base/base_link.stl
+[8.255s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/sensors
+[8.255s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/sensors/front_lrf
+[8.255s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/sensors/front_lrf/front_lrf.stl
+[8.263s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/sensors/gps
+[8.263s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/sensors/gps/gps.stl
+[8.265s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/sensors/rear_lrf
+[8.266s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/sensors/rear_lrf/rear_lrf.stl
+[8.266s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/sensors/gim30
+[8.267s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/sensors/gim30/gim30.stl
+[8.278s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/wheel
+[8.278s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/wheel/robot_wheel.stl
+[8.278s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/suspension
+[8.278s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/suspension/sus_link.stl
+[8.278s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/suspension/FRONT_RIGHT_LINKSTL.stl
+[8.279s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/suspension/REAR_RIGHT_LINKSTL.stl
+[8.279s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/suspension/REAR_LEFT_LINKSTL.stl
+[8.280s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/suspension/FRONT_LEFT_LINKSTL.stl
+[8.281s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/lidar_head
+[8.281s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/lidar_head/YDlidar_head v4.stl
+[8.281s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE
+[8.282s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/lidar_base
+[8.282s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/lidar_base/YDlidar_base.dae
+[8.282s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/base
+[8.283s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/base/base_linkOLD.dae
+[8.296s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/base/base_link.dae
+[8.309s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/sensors
+[8.310s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/sensors/camera
+[8.310s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/sensors/camera/camera.dae
+[8.310s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/sensors/front_lrf
+[8.310s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/sensors/front_lrf/lrf_texture.png
+[8.310s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/sensors/front_lrf/front_lrf.dae
+[8.333s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/sensors/gps
+[8.333s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/sensors/gps/gps.dae
+[8.341s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/sensors/gps/gps_texture.png
+[8.341s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/sensors/rear_lrf
+[8.341s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/sensors/rear_lrf/urg_texture.png
+[8.341s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/sensors/rear_lrf/rear_lrf.dae
+[8.343s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/sensors/gim30
+[8.343s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/sensors/gim30/gim30.dae
+[8.377s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/sensors/gim30/gim30_lrf_texture.png
+[8.377s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/wheel
+[8.377s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/wheel/wheel_link.dae
+[8.379s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/suspension
+[8.379s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/suspension/rear_right_link.dae
+[8.382s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/suspension/front_right_link.dae
+[8.385s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/suspension/front_left_link.dae
+[8.388s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/suspension/rear_left_link.dae
+[8.391s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/lidar_head
+[8.391s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/lidar_head/YDlidar_head.dae
+[8.391s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/config
+[8.391s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/config/controllers.yaml
+[8.392s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/model.config
+[8.392s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//worlds
+[8.392s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//worlds/4ws_world.model
+[8.392s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//urdf
+[8.392s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//urdf/rs_robot.gv
+[8.392s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//urdf/rs_robot.urdf
+[8.393s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation//urdf/rs_robot.pdf
+[8.393s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/lib/gazebo_simulation/robot_sim.launch.py
+[8.395s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/lib/gazebo_simulation/robot_state_publisher.launch.py
+[8.395s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/ament_index/resource_index/package_run_dependencies/gazebo_simulation
+[8.395s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/ament_index/resource_index/parent_prefix_path/gazebo_simulation
+[8.395s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/environment/ament_prefix_path.sh
+[8.395s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/environment/ament_prefix_path.dsv
+[8.396s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/environment/path.sh
+[8.396s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/environment/path.dsv
+[8.396s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/local_setup.bash
+[8.396s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/local_setup.sh
+[8.396s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/local_setup.zsh
+[8.396s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/local_setup.dsv
+[8.397s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/package.dsv
+[8.397s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/ament_index/resource_index/packages/gazebo_simulation
+[8.397s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.397s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.397s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/cmake/gazebo_simulationConfig.cmake
+[8.398s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/cmake/gazebo_simulationConfig-version.cmake
+[8.398s] -- Installing: /home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/package.xml
+[8.402s] Invoked command in '/home/siba/dev_4ws-main2/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/fresas:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/GAZEBO_description:/opt/ros/foxy /usr/bin/cmake --install /home/siba/dev_4ws-main2/build/gazebo_simulation

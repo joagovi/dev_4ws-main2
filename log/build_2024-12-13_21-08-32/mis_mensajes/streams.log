@@ -1,0 +1,115 @@
+[0.065s] Invoking command in '/home/siba/dev_4ws-main2/build/mis_mensajes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/bldc_can:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --build /home/siba/dev_4ws-main2/build/mis_mensajes -- -j4 -l4
+[0.977s] [  3%] Built target mis_mensajes__cpp
+[0.978s] [ 12%] Built target mis_mensajes__rosidl_generator_c
+[0.978s] [ 22%] Built target mis_mensajes__rosidl_typesupport_fastrtps_cpp
+[0.979s] [ 32%] Built target mis_mensajes__rosidl_typesupport_introspection_c
+[0.982s] [ 41%] Built target mis_mensajes__rosidl_typesupport_introspection_cpp
+[0.983s] [ 51%] Built target mis_mensajes__rosidl_typesupport_cpp
+[0.983s] [ 61%] Built target mis_mensajes__rosidl_typesupport_fastrtps_c
+[0.983s] [ 70%] Built target mis_mensajes__rosidl_typesupport_c
+[0.983s] [ 70%] Built target mis_mensajes
+[0.983s] [ 74%] Built target mis_mensajes__py
+[0.984s] [ 80%] Built target mis_mensajes__python
+[0.984s] [ 87%] Built target mis_mensajes__rosidl_typesupport_introspection_c__pyext
+[0.984s] [ 93%] Built target mis_mensajes__rosidl_typesupport_fastrtps_c__pyext
+[0.984s] [100%] Built target mis_mensajes__rosidl_typesupport_c__pyext
+[0.985s] Invoked command in '/home/siba/dev_4ws-main2/build/mis_mensajes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/bldc_can:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --build /home/siba/dev_4ws-main2/build/mis_mensajes -- -j4 -l4
+[1.120s] Invoking command in '/home/siba/dev_4ws-main2/build/mis_mensajes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/bldc_can:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --install /home/siba/dev_4ws-main2/build/mis_mensajes
+[1.138s] -- Install configuration: ""
+[1.138s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/ament_index/resource_index/rosidl_interfaces/mis_mensajes
+[1.140s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes
+[1.141s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg
+[1.142s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/angulos_inclinacion.h
+[1.143s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/rosidl_generator_c__visibility_control.h
+[1.144s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail
+[1.146s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail/angulos_inclinacion__type_support.h
+[1.147s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail/angulos_inclinacion__struct.h
+[1.148s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail/angulos_inclinacion__functions.h
+[1.149s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail/angulos_inclinacion__functions.c
+[1.150s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/environment/library_path.sh
+[1.152s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/environment/library_path.dsv
+[1.153s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/lib/libmis_mensajes__rosidl_generator_c.so
+[1.166s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes
+[1.167s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg
+[1.167s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.167s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail
+[1.167s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail/angulos_inclinacion__rosidl_typesupport_fastrtps_c.h
+[1.167s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/lib/libmis_mensajes__rosidl_typesupport_fastrtps_c.so
+[1.167s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes
+[1.168s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg
+[1.168s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.168s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail
+[1.168s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail/angulos_inclinacion__rosidl_typesupport_fastrtps_cpp.hpp
+[1.168s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail/dds_fastrtps
+[1.168s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/lib/libmis_mensajes__rosidl_typesupport_fastrtps_cpp.so
+[1.169s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes
+[1.169s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg
+[1.169s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.169s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail
+[1.169s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail/angulos_inclinacion__type_support.c
+[1.169s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail/angulos_inclinacion__rosidl_typesupport_introspection_c.h
+[1.170s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/lib/libmis_mensajes__rosidl_typesupport_introspection_c.so
+[1.183s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/lib/libmis_mensajes__rosidl_typesupport_c.so
+[1.183s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes
+[1.184s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg
+[1.184s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/angulos_inclinacion.hpp
+[1.184s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.184s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail
+[1.184s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail/angulos_inclinacion__builder.hpp
+[1.184s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail/angulos_inclinacion__traits.hpp
+[1.184s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail/angulos_inclinacion__struct.hpp
+[1.185s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail/angulos_inclinacion__type_support.hpp
+[1.185s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes
+[1.185s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg
+[1.185s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail
+[1.185s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail/angulos_inclinacion__type_support.cpp
+[1.185s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/include/mis_mensajes/msg/detail/angulos_inclinacion__rosidl_typesupport_introspection_cpp.hpp
+[1.185s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/lib/libmis_mensajes__rosidl_typesupport_introspection_cpp.so
+[1.189s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/lib/libmis_mensajes__rosidl_typesupport_cpp.so
+[1.189s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/environment/pythonpath.sh
+[1.189s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/environment/pythonpath.dsv
+[1.189s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/lib/python3.8/site-packages/mis_mensajes/__init__.py
+[1.305s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/lib/python3.8/site-packages/mis_mensajes/msg
+[1.307s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/lib/python3.8/site-packages/mis_mensajes/msg/_angulos_inclinacion.py
+[1.308s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/lib/python3.8/site-packages/mis_mensajes/msg/_angulos_inclinacion_s.c
+[1.309s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/lib/python3.8/site-packages/mis_mensajes/msg/__init__.py
+[1.310s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/lib/python3.8/site-packages/mis_mensajes/mis_mensajes_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.311s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/lib/python3.8/site-packages/mis_mensajes/mis_mensajes_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.312s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/lib/python3.8/site-packages/mis_mensajes/mis_mensajes_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.313s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/lib/libmis_mensajes__python.so
+[1.315s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/msg/AngulosInclinacion.idl
+[1.320s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/msg/AngulosInclinacion.msg
+[1.322s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/ament_index/resource_index/package_run_dependencies/mis_mensajes
+[1.324s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/ament_index/resource_index/parent_prefix_path/mis_mensajes
+[1.326s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/environment/ament_prefix_path.sh
+[1.328s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/environment/ament_prefix_path.dsv
+[1.329s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/environment/path.sh
+[1.331s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/environment/path.dsv
+[1.332s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/local_setup.bash
+[1.334s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/local_setup.sh
+[1.335s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/local_setup.zsh
+[1.337s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/local_setup.dsv
+[1.338s] -- Installing: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/package.dsv
+[1.341s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/ament_index/resource_index/packages/mis_mensajes
+[1.343s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/mis_mensajes__rosidl_generator_cExport.cmake
+[1.345s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/mis_mensajes__rosidl_generator_cExport-noconfig.cmake
+[1.347s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/mis_mensajes__rosidl_typesupport_introspection_cExport.cmake
+[1.349s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/mis_mensajes__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.351s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/mis_mensajes__rosidl_typesupport_cExport.cmake
+[1.352s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/mis_mensajes__rosidl_typesupport_cExport-noconfig.cmake
+[1.354s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/mis_mensajes__rosidl_generator_cppExport.cmake
+[1.356s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/mis_mensajes__rosidl_typesupport_introspection_cppExport.cmake
+[1.357s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/mis_mensajes__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.360s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/mis_mensajes__rosidl_typesupport_cppExport.cmake
+[1.361s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/mis_mensajes__rosidl_typesupport_cppExport-noconfig.cmake
+[1.363s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/rosidl_cmake-extras.cmake
+[1.364s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.366s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/ament_cmake_export_libraries-extras.cmake
+[1.367s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/ament_cmake_export_targets-extras.cmake
+[1.369s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.370s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.372s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.375s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/mis_mensajesConfig.cmake
+[1.376s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/cmake/mis_mensajesConfig-version.cmake
+[1.390s] -- Up-to-date: /home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/package.xml
+[1.390s] Invoked command in '/home/siba/dev_4ws-main2/build/mis_mensajes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/bldc_can:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --install /home/siba/dev_4ws-main2/build/mis_mensajes

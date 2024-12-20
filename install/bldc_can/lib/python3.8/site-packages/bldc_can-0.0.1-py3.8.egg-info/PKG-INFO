@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: bldc-can
+Version: 0.0.1
+Summary: Un paquete ROS 2 para manejar mensajes CAN.
+Home-page: UNKNOWN
+Maintainer: joagovi
+Maintainer-email: joaquin.villarrealg@gmail.com
+License: Licencia que prefieras
+Description: UNKNOWN
+Platform: UNKNOWN

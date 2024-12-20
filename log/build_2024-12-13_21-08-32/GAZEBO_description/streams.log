@@ -1,0 +1,20 @@
+[2.245s] Invoking command in '/home/siba/dev_4ws-main2/GAZEBO_description': PYTHONPATH=/home/siba/dev_4ws-main2/build/GAZEBO_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/GAZEBO_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/GAZEBO_description build --build-base /home/siba/dev_4ws-main2/build/GAZEBO_description/build install --record /home/siba/dev_4ws-main2/build/GAZEBO_description/install.log --install-scripts $base/lib/GAZEBO_description --single-version-externally-managed install_data
+[3.060s] running egg_info
+[3.060s] writing ../build/GAZEBO_description/GAZEBO_description.egg-info/PKG-INFO
+[3.061s] writing dependency_links to ../build/GAZEBO_description/GAZEBO_description.egg-info/dependency_links.txt
+[3.061s] writing entry points to ../build/GAZEBO_description/GAZEBO_description.egg-info/entry_points.txt
+[3.061s] writing requirements to ../build/GAZEBO_description/GAZEBO_description.egg-info/requires.txt
+[3.061s] writing top-level names to ../build/GAZEBO_description/GAZEBO_description.egg-info/top_level.txt
+[3.061s] reading manifest file '../build/GAZEBO_description/GAZEBO_description.egg-info/SOURCES.txt'
+[3.062s] writing manifest file '../build/GAZEBO_description/GAZEBO_description.egg-info/SOURCES.txt'
+[3.062s] running build
+[3.062s] running build_py
+[3.066s] running install
+[3.066s] running install_lib
+[3.066s] running install_data
+[3.067s] running install_egg_info
+[3.067s] removing '/home/siba/dev_4ws-main2/install/GAZEBO_description/lib/python3.8/site-packages/GAZEBO_description-0.0.0-py3.8.egg-info' (and everything under it)
+[3.067s] Copying ../build/GAZEBO_description/GAZEBO_description.egg-info to /home/siba/dev_4ws-main2/install/GAZEBO_description/lib/python3.8/site-packages/GAZEBO_description-0.0.0-py3.8.egg-info
+[3.067s] running install_scripts
+[3.067s] writing list of installed files to '/home/siba/dev_4ws-main2/build/GAZEBO_description/install.log'
+[3.114s] Invoked command in '/home/siba/dev_4ws-main2/GAZEBO_description' returned '0': PYTHONPATH=/home/siba/dev_4ws-main2/build/GAZEBO_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/GAZEBO_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/GAZEBO_description build --build-base /home/siba/dev_4ws-main2/build/GAZEBO_description/build install --record /home/siba/dev_4ws-main2/build/GAZEBO_description/install.log --install-scripts $base/lib/GAZEBO_description --single-version-externally-managed install_data

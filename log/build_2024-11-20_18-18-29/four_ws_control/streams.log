@@ -1,0 +1,54 @@
+[0.742s] Invoking command in '/home/siba/dev_4ws-main2/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/fresas:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/GAZEBO_description:/opt/ros/foxy /usr/bin/cmake /home/siba/dev_4ws-main2/src/four_ws_control -DCMAKE_INSTALL_PREFIX=/home/siba/dev_4ws-main2/install/four_ws_control
+[0.879s] -- The C compiler identification is GNU 9.4.0
+[1.010s] -- The CXX compiler identification is GNU 9.4.0
+[1.024s] -- Check for working C compiler: /usr/bin/cc
+[1.192s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.199s] -- Detecting C compiler ABI info
+[1.534s] -- Detecting C compiler ABI info - done
+[1.591s] -- Detecting C compile features
+[1.593s] -- Detecting C compile features - done
+[1.606s] -- Check for working CXX compiler: /usr/bin/c++
+[1.929s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.937s] -- Detecting CXX compiler ABI info
+[2.422s] -- Detecting CXX compiler ABI info - done
+[2.457s] -- Detecting CXX compile features
+[2.459s] -- Detecting CXX compile features - done
+[2.470s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.547s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.548s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.238s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.451s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.455s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.458s] -- Added test 'lint_cmake' to check CMake code style
+[3.460s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.462s] -- Added test 'xmllint' to check XML markup files
+[3.468s] -- Configuring done
+[3.471s] -- Generating done
+[3.473s] -- Build files have been written to: /home/siba/dev_4ws-main2/build/four_ws_control
+[3.580s] Invoked command in '/home/siba/dev_4ws-main2/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/fresas:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/GAZEBO_description:/opt/ros/foxy /usr/bin/cmake /home/siba/dev_4ws-main2/src/four_ws_control -DCMAKE_INSTALL_PREFIX=/home/siba/dev_4ws-main2/install/four_ws_control
+[3.586s] Invoking command in '/home/siba/dev_4ws-main2/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/fresas:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/GAZEBO_description:/opt/ros/foxy /usr/bin/cmake --build /home/siba/dev_4ws-main2/build/four_ws_control -- -j4 -l4
+[3.683s] Invoked command in '/home/siba/dev_4ws-main2/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/fresas:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/GAZEBO_description:/opt/ros/foxy /usr/bin/cmake --build /home/siba/dev_4ws-main2/build/four_ws_control -- -j4 -l4
+[3.766s] Invoking command in '/home/siba/dev_4ws-main2/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/fresas:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/GAZEBO_description:/opt/ros/foxy /usr/bin/cmake --install /home/siba/dev_4ws-main2/build/four_ws_control
+[3.792s] -- Install configuration: ""
+[3.793s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control//scripts
+[3.793s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control//scripts/robot_control.py
+[3.793s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control//launch
+[3.793s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control//launch/four_ws_control.launch.py
+[3.794s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/lib/four_ws_control/robot_control.py
+[3.794s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/lib/four_ws_control/four_ws_control.launch.py
+[3.794s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/ament_index/resource_index/package_run_dependencies/four_ws_control
+[3.794s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/ament_index/resource_index/parent_prefix_path/four_ws_control
+[3.794s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/environment/ament_prefix_path.sh
+[3.795s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/environment/ament_prefix_path.dsv
+[3.795s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/environment/path.sh
+[3.795s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/environment/path.dsv
+[3.795s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/local_setup.bash
+[3.795s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/local_setup.sh
+[3.796s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/local_setup.zsh
+[3.796s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/local_setup.dsv
+[3.796s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/package.dsv
+[3.796s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/ament_index/resource_index/packages/four_ws_control
+[3.797s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/cmake/four_ws_controlConfig.cmake
+[3.797s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/cmake/four_ws_controlConfig-version.cmake
+[3.797s] -- Installing: /home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/package.xml
+[3.801s] Invoked command in '/home/siba/dev_4ws-main2/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/fresas:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/GAZEBO_description:/opt/ros/foxy /usr/bin/cmake --install /home/siba/dev_4ws-main2/build/four_ws_control

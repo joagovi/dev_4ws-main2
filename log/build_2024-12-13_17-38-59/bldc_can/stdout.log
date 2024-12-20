@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/bldc_can/bldc_can.egg-info
+writing ../../build/bldc_can/bldc_can.egg-info/PKG-INFO
+writing dependency_links to ../../build/bldc_can/bldc_can.egg-info/dependency_links.txt
+writing entry points to ../../build/bldc_can/bldc_can.egg-info/entry_points.txt
+writing requirements to ../../build/bldc_can/bldc_can.egg-info/requires.txt
+writing top-level names to ../../build/bldc_can/bldc_can.egg-info/top_level.txt
+writing manifest file '../../build/bldc_can/bldc_can.egg-info/SOURCES.txt'
+reading manifest file '../../build/bldc_can/bldc_can.egg-info/SOURCES.txt'
+writing manifest file '../../build/bldc_can/bldc_can.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/siba/dev_4ws-main2/build/bldc_can/build
+creating /home/siba/dev_4ws-main2/build/bldc_can/build/lib
+creating /home/siba/dev_4ws-main2/build/bldc_can/build/lib/bldc_can
+copying bldc_can/__init__.py -> /home/siba/dev_4ws-main2/build/bldc_can/build/lib/bldc_can
+running install
+running install_lib
+creating /home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages/bldc_can
+copying /home/siba/dev_4ws-main2/build/bldc_can/build/lib/bldc_can/__init__.py -> /home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages/bldc_can
+byte-compiling /home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages/bldc_can/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/siba/dev_4ws-main2/install/bldc_can/share/ament_index
+creating /home/siba/dev_4ws-main2/install/bldc_can/share/ament_index/resource_index
+creating /home/siba/dev_4ws-main2/install/bldc_can/share/ament_index/resource_index/packages
+copying resource/bldc_can -> /home/siba/dev_4ws-main2/install/bldc_can/share/ament_index/resource_index/packages
+copying package.xml -> /home/siba/dev_4ws-main2/install/bldc_can/share/bldc_can
+running install_egg_info
+Copying ../../build/bldc_can/bldc_can.egg-info to /home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages/bldc_can-0.0.1-py3.8.egg-info
+running install_scripts
+Installing can_node script to /home/siba/dev_4ws-main2/install/bldc_can/lib/bldc_can
+writing list of installed files to '/home/siba/dev_4ws-main2/build/bldc_can/install.log'

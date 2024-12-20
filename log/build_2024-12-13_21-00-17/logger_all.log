@@ -1,0 +1,691 @@
+[0.231s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.231s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7feb9c36cac0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7feb9c36cac0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7feb9c2fb070>)
+[0.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.407s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/siba/dev_4ws-main2'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(GAZEBO_description) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(GAZEBO_description) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(GAZEBO_description) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(GAZEBO_description) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(GAZEBO_description) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(GAZEBO_description) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(GAZEBO_description) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(GAZEBO_description) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(GAZEBO_description) by extension 'ros'
+[0.425s] DEBUG:colcon.colcon_core.package_identification:Package 'GAZEBO_description' with type 'ros.ament_python' and name 'GAZEBO_description'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-06_49_32) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-06_49_32) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-06_49_32) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-06_49_32) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-06_49_32) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-06_49_32) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-06_49_32) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-06_49_32) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-06_49_32) by extension 'ros'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-06_49_32) by extensions ['cmake', 'python']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-06_49_32) by extension 'cmake'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-06_49_32) by extension 'python'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-06_49_32) by extensions ['python_setup_py']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-06_49_32) by extension 'python_setup_py'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-08_52_41) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-08_52_41) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-08_52_41) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-08_52_41) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-08_52_41) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-08_52_41) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-08_52_41) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-08_52_41) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-08_52_41) by extension 'ros'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-08_52_41) by extensions ['cmake', 'python']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-08_52_41) by extension 'cmake'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-08_52_41) by extension 'python'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-08_52_41) by extensions ['python_setup_py']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-08_52_41) by extension 'python_setup_py'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-10_28_54) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-10_28_54) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-10_28_54) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-10_28_54) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-10_28_54) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-10_28_54) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-10_28_54) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-10_28_54) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-10_28_54) by extension 'ros'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-10_28_54) by extensions ['cmake', 'python']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-10_28_54) by extension 'cmake'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-10_28_54) by extension 'python'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-10_28_54) by extensions ['python_setup_py']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-10_28_54) by extension 'python_setup_py'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_10_47) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_10_47) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_10_47) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_10_47) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_10_47) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_10_47) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_10_47) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_10_47) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_10_47) by extension 'ros'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_10_47) by extensions ['cmake', 'python']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_10_47) by extension 'cmake'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_10_47) by extension 'python'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_10_47) by extensions ['python_setup_py']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_10_47) by extension 'python_setup_py'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_11_00) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_11_00) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_11_00) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_11_00) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_11_00) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_11_00) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_11_00) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_11_00) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_11_00) by extension 'ros'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_11_00) by extensions ['cmake', 'python']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_11_00) by extension 'cmake'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_11_00) by extension 'python'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_11_00) by extensions ['python_setup_py']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_11_00) by extension 'python_setup_py'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_17_33) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_17_33) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_17_33) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_17_33) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_17_33) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_17_33) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_17_33) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_17_33) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_17_33) by extension 'ros'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_17_33) by extensions ['cmake', 'python']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_17_33) by extension 'cmake'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_17_33) by extension 'python'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_17_33) by extensions ['python_setup_py']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_17_33) by extension 'python_setup_py'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_18_52) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_18_52) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_18_52) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_18_52) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_18_52) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_18_52) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_18_52) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_18_52) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_18_52) by extension 'ros'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_18_52) by extensions ['cmake', 'python']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_18_52) by extension 'cmake'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_18_52) by extension 'python'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_18_52) by extensions ['python_setup_py']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_18_52) by extension 'python_setup_py'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_19_28) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_19_28) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_19_28) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_19_28) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_19_28) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_19_28) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_19_28) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_19_28) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_19_28) by extension 'ros'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_19_28) by extensions ['cmake', 'python']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_19_28) by extension 'cmake'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_19_28) by extension 'python'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_19_28) by extensions ['python_setup_py']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_19_28) by extension 'python_setup_py'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_28_27) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_28_27) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_28_27) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_28_27) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_28_27) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_28_27) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_28_27) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_28_27) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_28_27) by extension 'ros'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_28_27) by extensions ['cmake', 'python']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_28_27) by extension 'cmake'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_28_27) by extension 'python'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_28_27) by extensions ['python_setup_py']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_28_27) by extension 'python_setup_py'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_29_30) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_29_30) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_29_30) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_29_30) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_29_30) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_29_30) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_29_30) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_29_30) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_29_30) by extension 'ros'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_29_30) by extensions ['cmake', 'python']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_29_30) by extension 'cmake'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_29_30) by extension 'python'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_29_30) by extensions ['python_setup_py']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_11_19-16_29_30) by extension 'python_setup_py'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/bldc_can) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/bldc_can) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/bldc_can) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/bldc_can) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/bldc_can) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/bldc_can) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/bldc_can) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/bldc_can) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/bldc_can) by extension 'ros'
+[0.443s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bldc_can' with type 'ros.ament_python' and name 'bldc_can'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/dc_motor) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/dc_motor) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/dc_motor) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/dc_motor) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/dc_motor) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/dc_motor) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/dc_motor) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/dc_motor) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/dc_motor) by extension 'ros'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dc_motor' with type 'ros.ament_python' and name 'dc_motor'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/four_ws_control' with type 'ros.ament_cmake' and name 'four_ws_control'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_simulation' with type 'ros.ament_cmake' and name 'gazebo_simulation'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller) by extension 'ros'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller) by extensions ['cmake', 'python']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller) by extension 'cmake'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller) by extension 'python'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller) by extensions ['python_setup_py']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller) by extension 'python_setup_py'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller/imu_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller/imu_controller) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller/imu_controller) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller/imu_controller) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller/imu_controller) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller/imu_controller) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller/imu_controller) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller/imu_controller) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_controller/imu_controller) by extension 'ros'
+[0.452s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_controller/imu_controller' with type 'ros.ament_python' and name 'imu_controller'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/mis_mensajes) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/mis_mensajes) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/mis_mensajes) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/mis_mensajes) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/mis_mensajes) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/mis_mensajes) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/mis_mensajes) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/mis_mensajes) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/mis_mensajes) by extension 'ros'
+[0.454s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mis_mensajes' with type 'ros.ament_cmake' and name 'mis_mensajes'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_demo) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_demo) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_demo) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_demo) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_demo) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_demo) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_demo) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_demo) by extension 'ros'
+[0.458s] DEBUG:colcon.colcon_core.package_identification:Package 'src/path_demo' with type 'ros.ament_python' and name 'path_demo'
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.485s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/siba/dev_4ws-main2/install
+[0.486s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 20 installed packages in /home/siba/ros2_ws/install
+[0.486s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/siba/ros2_ws/src/fresas/install
+[0.488s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 297 installed packages in /opt/ros/foxy
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'GAZEBO_description' build argument 'cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'GAZEBO_description' build argument 'cmake_target' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'GAZEBO_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'GAZEBO_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'GAZEBO_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'GAZEBO_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'GAZEBO_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'GAZEBO_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'GAZEBO_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.583s] DEBUG:colcon.colcon_core.verb:Building package 'GAZEBO_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siba/dev_4ws-main2/build/GAZEBO_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siba/dev_4ws-main2/install/GAZEBO_description', 'merge_install': False, 'path': '/home/siba/dev_4ws-main2/GAZEBO_description', 'symlink_install': False, 'test_result_base': None}
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'dc_motor' build argument 'cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'dc_motor' build argument 'cmake_target' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'dc_motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'dc_motor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'dc_motor' build argument 'cmake_clean_first' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'dc_motor' build argument 'cmake_force_configure' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'dc_motor' build argument 'ament_cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'dc_motor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'dc_motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.584s] DEBUG:colcon.colcon_core.verb:Building package 'dc_motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siba/dev_4ws-main2/build/dc_motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siba/dev_4ws-main2/install/dc_motor', 'merge_install': False, 'path': '/home/siba/dev_4ws-main2/src/dc_motor', 'symlink_install': False, 'test_result_base': None}
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_target' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.585s] DEBUG:colcon.colcon_core.verb:Building package 'four_ws_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siba/dev_4ws-main2/build/four_ws_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siba/dev_4ws-main2/install/four_ws_control', 'merge_install': False, 'path': '/home/siba/dev_4ws-main2/src/four_ws_control', 'symlink_install': False, 'test_result_base': None}
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_target' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.586s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siba/dev_4ws-main2/build/gazebo_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siba/dev_4ws-main2/install/gazebo_simulation', 'merge_install': False, 'path': '/home/siba/dev_4ws-main2/src/gazebo_simulation', 'symlink_install': False, 'test_result_base': None}
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'mis_mensajes' build argument 'cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'mis_mensajes' build argument 'cmake_target' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'mis_mensajes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'mis_mensajes' build argument 'cmake_clean_cache' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'mis_mensajes' build argument 'cmake_clean_first' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'mis_mensajes' build argument 'cmake_force_configure' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'mis_mensajes' build argument 'ament_cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'mis_mensajes' build argument 'catkin_cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'mis_mensajes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.587s] DEBUG:colcon.colcon_core.verb:Building package 'mis_mensajes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siba/dev_4ws-main2/build/mis_mensajes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siba/dev_4ws-main2/install/mis_mensajes', 'merge_install': False, 'path': '/home/siba/dev_4ws-main2/src/mis_mensajes', 'symlink_install': False, 'test_result_base': None}
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'path_demo' build argument 'cmake_args' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'path_demo' build argument 'cmake_target' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'path_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'path_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'path_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'path_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'path_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'path_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'path_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.588s] DEBUG:colcon.colcon_core.verb:Building package 'path_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siba/dev_4ws-main2/build/path_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siba/dev_4ws-main2/install/path_demo', 'merge_install': False, 'path': '/home/siba/dev_4ws-main2/src/path_demo', 'symlink_install': False, 'test_result_base': None}
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'bldc_can' build argument 'cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'bldc_can' build argument 'cmake_target' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'bldc_can' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'bldc_can' build argument 'cmake_clean_cache' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'bldc_can' build argument 'cmake_clean_first' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'bldc_can' build argument 'cmake_force_configure' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'bldc_can' build argument 'ament_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'bldc_can' build argument 'catkin_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'bldc_can' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.589s] DEBUG:colcon.colcon_core.verb:Building package 'bldc_can' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siba/dev_4ws-main2/build/bldc_can', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siba/dev_4ws-main2/install/bldc_can', 'merge_install': False, 'path': '/home/siba/dev_4ws-main2/src/bldc_can', 'symlink_install': False, 'test_result_base': None}
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'imu_controller' build argument 'cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'imu_controller' build argument 'cmake_target' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'imu_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'imu_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'imu_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'imu_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'imu_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'imu_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'imu_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.590s] DEBUG:colcon.colcon_core.verb:Building package 'imu_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siba/dev_4ws-main2/build/imu_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siba/dev_4ws-main2/install/imu_controller', 'merge_install': False, 'path': '/home/siba/dev_4ws-main2/src/imu_controller/imu_controller', 'symlink_install': False, 'test_result_base': None}
+[0.590s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.592s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.592s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/siba/dev_4ws-main2/src/mis_mensajes' with build type 'ament_cmake'
+[0.592s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/siba/dev_4ws-main2/src/mis_mensajes'
+[0.597s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.597s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.597s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.606s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/siba/dev_4ws-main2/GAZEBO_description' with build type 'ament_python'
+[0.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('GAZEBO_description', 'ament_prefix_path')
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/GAZEBO_description/share/GAZEBO_description/hook/ament_prefix_path.ps1'
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/GAZEBO_description/share/GAZEBO_description/hook/ament_prefix_path.dsv'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/GAZEBO_description/share/GAZEBO_description/hook/ament_prefix_path.sh'
+[0.611s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.611s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.621s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/siba/dev_4ws-main2/src/dc_motor' with build type 'ament_python'
+[0.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('dc_motor', 'ament_prefix_path')
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/dc_motor/share/dc_motor/hook/ament_prefix_path.ps1'
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/dc_motor/share/dc_motor/hook/ament_prefix_path.dsv'
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/dc_motor/share/dc_motor/hook/ament_prefix_path.sh'
+[0.625s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.625s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.634s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/siba/dev_4ws-main2/src/four_ws_control' with build type 'ament_cmake'
+[0.635s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/siba/dev_4ws-main2/src/four_ws_control'
+[0.636s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.636s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siba/dev_4ws-main2/build/mis_mensajes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/bldc_can:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --build /home/siba/dev_4ws-main2/build/mis_mensajes -- -j4 -l4
+[1.108s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/siba/dev_4ws-main2/GAZEBO_description'
+[1.109s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.414s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/siba/dev_4ws-main2/src/dc_motor'
+[1.415s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.415s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siba/dev_4ws-main2/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/bldc_can:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --build /home/siba/dev_4ws-main2/build/four_ws_control -- -j4 -l4
+[1.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siba/dev_4ws-main2/build/mis_mensajes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/bldc_can:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --build /home/siba/dev_4ws-main2/build/mis_mensajes -- -j4 -l4
+[1.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siba/dev_4ws-main2/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/bldc_can:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --build /home/siba/dev_4ws-main2/build/four_ws_control -- -j4 -l4
+[1.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siba/dev_4ws-main2/build/mis_mensajes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/bldc_can:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --install /home/siba/dev_4ws-main2/build/mis_mensajes
+[1.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siba/dev_4ws-main2/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/bldc_can:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --install /home/siba/dev_4ws-main2/build/four_ws_control
+[1.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(four_ws_control)
+[1.646s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/four_ws_control' for CMake module files
+[1.647s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/four_ws_control' for CMake config files
+[1.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_ws_control', 'cmake_prefix_path')
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.ps1'
+[1.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siba/dev_4ws-main2/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/bldc_can:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --install /home/siba/dev_4ws-main2/build/four_ws_control
+[1.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.dsv'
+[1.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.sh'
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/four_ws_control/lib'
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/four_ws_control/bin'
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/four_ws_control/lib/pkgconfig/four_ws_control.pc'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/four_ws_control/lib/python3.8/site-packages'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/four_ws_control/bin'
+[1.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/package.ps1'
+[1.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/package.dsv'
+[1.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/package.sh'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/package.bash'
+[1.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/package.zsh'
+[1.680s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siba/dev_4ws-main2/install/four_ws_control/share/colcon-core/packages/four_ws_control)
+[1.716s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mis_mensajes)
+[1.717s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/mis_mensajes' for CMake module files
+[1.718s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/mis_mensajes' for CMake config files
+[1.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('mis_mensajes', 'cmake_prefix_path')
+[1.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/cmake_prefix_path.ps1'
+[1.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/cmake_prefix_path.dsv'
+[1.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/cmake_prefix_path.sh'
+[1.722s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/mis_mensajes/lib'
+[1.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('mis_mensajes', 'ld_library_path_lib')
+[1.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/ld_library_path_lib.ps1'
+[1.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siba/dev_4ws-main2/build/mis_mensajes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/bldc_can:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --install /home/siba/dev_4ws-main2/build/mis_mensajes
+[1.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/ld_library_path_lib.dsv'
+[1.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/ld_library_path_lib.sh'
+[1.725s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/mis_mensajes/bin'
+[1.725s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/mis_mensajes/lib/pkgconfig/mis_mensajes.pc'
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/mis_mensajes/lib/python3.8/site-packages'
+[1.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('mis_mensajes', 'pythonpath')
+[1.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/pythonpath.ps1'
+[1.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/pythonpath.dsv'
+[1.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/pythonpath.sh'
+[1.728s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/mis_mensajes/bin'
+[1.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/package.ps1'
+[1.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/package.dsv'
+[1.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/package.sh'
+[1.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/package.bash'
+[1.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/package.zsh'
+[1.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siba/dev_4ws-main2/install/mis_mensajes/share/colcon-core/packages/mis_mensajes)
+[1.768s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(four_ws_control)
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/four_ws_control' for CMake module files
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/four_ws_control' for CMake config files
+[1.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_ws_control', 'cmake_prefix_path')
+[1.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.ps1'
+[1.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.dsv'
+[1.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.sh'
+[1.773s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/four_ws_control/lib'
+[1.773s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/four_ws_control/bin'
+[1.773s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/four_ws_control/lib/pkgconfig/four_ws_control.pc'
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/four_ws_control/lib/python3.8/site-packages'
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/four_ws_control/bin'
+[1.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/package.ps1'
+[1.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/package.dsv'
+[1.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/package.sh'
+[1.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/package.bash'
+[1.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/four_ws_control/share/four_ws_control/package.zsh'
+[1.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siba/dev_4ws-main2/install/four_ws_control/share/colcon-core/packages/four_ws_control)
+[1.781s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/siba/dev_4ws-main2/src/gazebo_simulation' with build type 'ament_cmake'
+[1.781s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/siba/dev_4ws-main2/src/gazebo_simulation'
+[1.787s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.787s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siba/dev_4ws-main2/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/bldc_can:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --build /home/siba/dev_4ws-main2/build/gazebo_simulation -- -j4 -l4
+[1.871s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mis_mensajes)
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/mis_mensajes' for CMake module files
+[1.874s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/mis_mensajes' for CMake config files
+[1.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('mis_mensajes', 'cmake_prefix_path')
+[1.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/cmake_prefix_path.ps1'
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/cmake_prefix_path.dsv'
+[1.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/cmake_prefix_path.sh'
+[1.880s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/mis_mensajes/lib'
+[1.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('mis_mensajes', 'ld_library_path_lib')
+[1.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/ld_library_path_lib.ps1'
+[1.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/ld_library_path_lib.dsv'
+[1.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/ld_library_path_lib.sh'
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/mis_mensajes/bin'
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/mis_mensajes/lib/pkgconfig/mis_mensajes.pc'
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/mis_mensajes/lib/python3.8/site-packages'
+[1.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('mis_mensajes', 'pythonpath')
+[1.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/pythonpath.ps1'
+[1.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/pythonpath.dsv'
+[1.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/hook/pythonpath.sh'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/mis_mensajes/bin'
+[1.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/package.ps1'
+[1.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/package.dsv'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/package.sh'
+[1.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/package.bash'
+[1.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/mis_mensajes/share/mis_mensajes/package.zsh'
+[1.901s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siba/dev_4ws-main2/install/mis_mensajes/share/colcon-core/packages/mis_mensajes)
+[1.904s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/siba/dev_4ws-main2/src/path_demo' with build type 'ament_python'
+[1.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_demo', 'ament_prefix_path')
+[1.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/path_demo/share/path_demo/hook/ament_prefix_path.ps1'
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/path_demo/share/path_demo/hook/ament_prefix_path.dsv'
+[1.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/path_demo/share/path_demo/hook/ament_prefix_path.sh'
+[1.911s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.911s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siba/dev_4ws-main2/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/bldc_can:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --build /home/siba/dev_4ws-main2/build/gazebo_simulation -- -j4 -l4
+[2.276s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/siba/dev_4ws-main2/src/path_demo'
+[2.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siba/dev_4ws-main2/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/bldc_can:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --install /home/siba/dev_4ws-main2/build/gazebo_simulation
+[2.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siba/dev_4ws-main2/src/dc_motor': PYTHONPATH=/home/siba/dev_4ws-main2/build/dc_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/dc_motor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dc_motor build --build-base /home/siba/dev_4ws-main2/build/dc_motor/build install --record /home/siba/dev_4ws-main2/build/dc_motor/install.log --install-scripts $base/lib/dc_motor --single-version-externally-managed install_data
+[2.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siba/dev_4ws-main2/GAZEBO_description': PYTHONPATH=/home/siba/dev_4ws-main2/build/GAZEBO_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/GAZEBO_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/GAZEBO_description build --build-base /home/siba/dev_4ws-main2/build/GAZEBO_description/build install --record /home/siba/dev_4ws-main2/build/GAZEBO_description/install.log --install-scripts $base/lib/GAZEBO_description --single-version-externally-managed install_data
+[2.351s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_simulation)
+[2.352s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/gazebo_simulation' for CMake module files
+[2.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siba/dev_4ws-main2/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siba/dev_4ws-main2/install/bldc_can:/home/siba/dev_4ws-main2/install/path_demo:/home/siba/dev_4ws-main2/install/imu_controller:/home/siba/dev_4ws-main2/install/dc_motor:/home/siba/dev_4ws-main2/install/GAZEBO_description:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siba/ros2_ws/install/examples_rclpy_minimal_service:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siba/ros2_ws/install/examples_rclpy_minimal_client:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siba/ros2_ws/install/examples_rclpy_executors:/home/siba/ros2_ws/install/dc_motor_controller:/opt/ros/foxy /usr/bin/cmake --install /home/siba/dev_4ws-main2/build/gazebo_simulation
+[2.354s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/gazebo_simulation' for CMake config files
+[2.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_simulation', 'cmake_prefix_path')
+[2.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.ps1'
+[2.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.dsv'
+[2.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.sh'
+[2.357s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/gazebo_simulation/lib'
+[2.357s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/gazebo_simulation/bin'
+[2.357s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/gazebo_simulation/lib/pkgconfig/gazebo_simulation.pc'
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/gazebo_simulation/lib/python3.8/site-packages'
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/gazebo_simulation/bin'
+[2.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/package.ps1'
+[2.360s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/package.dsv'
+[2.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/package.sh'
+[2.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/package.bash'
+[2.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/package.zsh'
+[2.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siba/dev_4ws-main2/install/gazebo_simulation/share/colcon-core/packages/gazebo_simulation)
+[2.445s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_simulation)
+[2.445s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/gazebo_simulation' for CMake module files
+[2.446s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/gazebo_simulation' for CMake config files
+[2.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_simulation', 'cmake_prefix_path')
+[2.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.ps1'
+[2.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.dsv'
+[2.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.sh'
+[2.450s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/gazebo_simulation/lib'
+[2.450s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/gazebo_simulation/bin'
+[2.450s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/gazebo_simulation/lib/pkgconfig/gazebo_simulation.pc'
+[2.450s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/gazebo_simulation/lib/python3.8/site-packages'
+[2.451s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/gazebo_simulation/bin'
+[2.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/package.ps1'
+[2.452s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/package.dsv'
+[2.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/package.sh'
+[2.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/package.bash'
+[2.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/gazebo_simulation/share/gazebo_simulation/package.zsh'
+[2.455s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siba/dev_4ws-main2/install/gazebo_simulation/share/colcon-core/packages/gazebo_simulation)
+[2.457s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/siba/dev_4ws-main2/src/bldc_can' with build type 'ament_python'
+[2.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('bldc_can', 'ament_prefix_path')
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/bldc_can/share/bldc_can/hook/ament_prefix_path.ps1'
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/bldc_can/share/bldc_can/hook/ament_prefix_path.dsv'
+[2.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/bldc_can/share/bldc_can/hook/ament_prefix_path.sh'
+[2.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.007s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/siba/dev_4ws-main2/src/bldc_can'
+[3.008s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.008s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.027s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/dc_motor' for CMake module files
+[3.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siba/dev_4ws-main2/src/dc_motor' returned '0': PYTHONPATH=/home/siba/dev_4ws-main2/build/dc_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/dc_motor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dc_motor build --build-base /home/siba/dev_4ws-main2/build/dc_motor/build install --record /home/siba/dev_4ws-main2/build/dc_motor/install.log --install-scripts $base/lib/dc_motor --single-version-externally-managed install_data
+[3.030s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/dc_motor' for CMake config files
+[3.031s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/dc_motor/lib'
+[3.031s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/dc_motor/bin'
+[3.031s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/dc_motor/lib/pkgconfig/dc_motor.pc'
+[3.032s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/dc_motor/lib/python3.8/site-packages'
+[3.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('dc_motor', 'pythonpath')
+[3.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/dc_motor/share/dc_motor/hook/pythonpath.ps1'
+[3.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/dc_motor/share/dc_motor/hook/pythonpath.dsv'
+[3.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/dc_motor/share/dc_motor/hook/pythonpath.sh'
+[3.035s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/dc_motor/bin'
+[3.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dc_motor)
+[3.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/dc_motor/share/dc_motor/package.ps1'
+[3.037s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siba/dev_4ws-main2/install/dc_motor/share/dc_motor/package.dsv'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/dc_motor/share/dc_motor/package.sh'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/dc_motor/share/dc_motor/package.bash'
+[3.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/dc_motor/share/dc_motor/package.zsh'
+[3.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siba/dev_4ws-main2/install/dc_motor/share/colcon-core/packages/dc_motor)
+[3.041s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/siba/dev_4ws-main2/src/imu_controller/imu_controller' with build type 'ament_python'
+[3.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_controller', 'ament_prefix_path')
+[3.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/imu_controller/share/imu_controller/hook/ament_prefix_path.ps1'
+[3.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/imu_controller/share/imu_controller/hook/ament_prefix_path.dsv'
+[3.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/imu_controller/share/imu_controller/hook/ament_prefix_path.sh'
+[3.046s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.046s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.064s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/GAZEBO_description' for CMake module files
+[3.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siba/dev_4ws-main2/GAZEBO_description' returned '0': PYTHONPATH=/home/siba/dev_4ws-main2/build/GAZEBO_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/GAZEBO_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/GAZEBO_description build --build-base /home/siba/dev_4ws-main2/build/GAZEBO_description/build install --record /home/siba/dev_4ws-main2/build/GAZEBO_description/install.log --install-scripts $base/lib/GAZEBO_description --single-version-externally-managed install_data
+[3.067s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/GAZEBO_description' for CMake config files
+[3.068s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/GAZEBO_description/lib'
+[3.069s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/GAZEBO_description/bin'
+[3.069s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/GAZEBO_description/lib/pkgconfig/GAZEBO_description.pc'
+[3.069s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/GAZEBO_description/lib/python3.8/site-packages'
+[3.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('GAZEBO_description', 'pythonpath')
+[3.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/GAZEBO_description/share/GAZEBO_description/hook/pythonpath.ps1'
+[3.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/GAZEBO_description/share/GAZEBO_description/hook/pythonpath.dsv'
+[3.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/GAZEBO_description/share/GAZEBO_description/hook/pythonpath.sh'
+[3.074s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/GAZEBO_description/bin'
+[3.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(GAZEBO_description)
+[3.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/GAZEBO_description/share/GAZEBO_description/package.ps1'
+[3.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siba/dev_4ws-main2/install/GAZEBO_description/share/GAZEBO_description/package.dsv'
+[3.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/GAZEBO_description/share/GAZEBO_description/package.sh'
+[3.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/GAZEBO_description/share/GAZEBO_description/package.bash'
+[3.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/GAZEBO_description/share/GAZEBO_description/package.zsh'
+[3.079s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siba/dev_4ws-main2/install/GAZEBO_description/share/colcon-core/packages/GAZEBO_description)
+[3.432s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/siba/dev_4ws-main2/src/imu_controller/imu_controller'
+[3.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.433s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siba/dev_4ws-main2/src/path_demo': PYTHONPATH=/home/siba/dev_4ws-main2/build/path_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_demo build --build-base /home/siba/dev_4ws-main2/build/path_demo/build install --record /home/siba/dev_4ws-main2/build/path_demo/install.log --install-scripts $base/lib/path_demo --single-version-externally-managed install_data
+[3.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siba/dev_4ws-main2/src/bldc_can': PYTHONPATH=/home/siba/dev_4ws-main2/build/bldc_can/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/mis_mensajes/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/imu_controller/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/dc_motor/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/GAZEBO_description/lib/python3.8/site-packages:/home/siba/ros2_ws/install/fresas/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/siba/ros2_ws/install/dc_motor_controller/lib/python3.8/site-packages:/home/siba/ros2_ws/install/dc_motor_interfaces/lib/python3.8/site-packages:/home/siba/ros2_ws/src/fresas/install/fresas/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bldc_can build --build-base /home/siba/dev_4ws-main2/build/bldc_can/build install --record /home/siba/dev_4ws-main2/build/bldc_can/install.log --install-scripts $base/lib/bldc_can --single-version-externally-managed install_data
+[4.236s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/path_demo' for CMake module files
+[4.237s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/path_demo' for CMake config files
+[4.239s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/path_demo/lib'
+[4.239s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/path_demo/bin'
+[4.239s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/path_demo/lib/pkgconfig/path_demo.pc'
+[4.240s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages'
+[4.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_demo', 'pythonpath')
+[4.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/path_demo/share/path_demo/hook/pythonpath.ps1'
+[4.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/path_demo/share/path_demo/hook/pythonpath.dsv'
+[4.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/path_demo/share/path_demo/hook/pythonpath.sh'
+[4.243s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/path_demo/bin'
+[4.243s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path_demo)
+[4.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/path_demo/share/path_demo/package.ps1'
+[4.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siba/dev_4ws-main2/install/path_demo/share/path_demo/package.dsv'
+[4.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siba/dev_4ws-main2/src/path_demo' returned '0': PYTHONPATH=/home/siba/dev_4ws-main2/build/path_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_demo build --build-base /home/siba/dev_4ws-main2/build/path_demo/build install --record /home/siba/dev_4ws-main2/build/path_demo/install.log --install-scripts $base/lib/path_demo --single-version-externally-managed install_data
+[4.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/path_demo/share/path_demo/package.sh'
+[4.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/path_demo/share/path_demo/package.bash'
+[4.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/path_demo/share/path_demo/package.zsh'
+[4.249s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siba/dev_4ws-main2/install/path_demo/share/colcon-core/packages/path_demo)
+[4.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siba/dev_4ws-main2/src/imu_controller/imu_controller': PYTHONPATH=/home/siba/dev_4ws-main2/build/imu_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/imu_controller/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/mis_mensajes/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/imu_controller/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/dc_motor/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/GAZEBO_description/lib/python3.8/site-packages:/home/siba/ros2_ws/install/fresas/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/siba/ros2_ws/install/dc_motor_controller/lib/python3.8/site-packages:/home/siba/ros2_ws/install/dc_motor_interfaces/lib/python3.8/site-packages:/home/siba/ros2_ws/src/fresas/install/fresas/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/imu_controller build --build-base /home/siba/dev_4ws-main2/build/imu_controller/build install --record /home/siba/dev_4ws-main2/build/imu_controller/install.log --install-scripts $base/lib/imu_controller --single-version-externally-managed install_data
+[4.723s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/bldc_can' for CMake module files
+[4.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siba/dev_4ws-main2/src/bldc_can' returned '0': PYTHONPATH=/home/siba/dev_4ws-main2/build/bldc_can/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/mis_mensajes/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/imu_controller/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/dc_motor/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/GAZEBO_description/lib/python3.8/site-packages:/home/siba/ros2_ws/install/fresas/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/siba/ros2_ws/install/dc_motor_controller/lib/python3.8/site-packages:/home/siba/ros2_ws/install/dc_motor_interfaces/lib/python3.8/site-packages:/home/siba/ros2_ws/src/fresas/install/fresas/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bldc_can build --build-base /home/siba/dev_4ws-main2/build/bldc_can/build install --record /home/siba/dev_4ws-main2/build/bldc_can/install.log --install-scripts $base/lib/bldc_can --single-version-externally-managed install_data
+[4.725s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/bldc_can' for CMake config files
+[4.726s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/bldc_can/lib'
+[4.726s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/bldc_can/bin'
+[4.727s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/bldc_can/lib/pkgconfig/bldc_can.pc'
+[4.727s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages'
+[4.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('bldc_can', 'pythonpath')
+[4.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/bldc_can/share/bldc_can/hook/pythonpath.ps1'
+[4.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/bldc_can/share/bldc_can/hook/pythonpath.dsv'
+[4.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/bldc_can/share/bldc_can/hook/pythonpath.sh'
+[4.730s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/bldc_can/bin'
+[4.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bldc_can)
+[4.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/bldc_can/share/bldc_can/package.ps1'
+[4.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siba/dev_4ws-main2/install/bldc_can/share/bldc_can/package.dsv'
+[4.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/bldc_can/share/bldc_can/package.sh'
+[4.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/bldc_can/share/bldc_can/package.bash'
+[4.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/bldc_can/share/bldc_can/package.zsh'
+[4.736s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siba/dev_4ws-main2/install/bldc_can/share/colcon-core/packages/bldc_can)
+[5.187s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/imu_controller' for CMake module files
+[5.187s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/imu_controller' for CMake config files
+[5.189s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/imu_controller/lib'
+[5.189s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/imu_controller/bin'
+[5.189s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/imu_controller/lib/pkgconfig/imu_controller.pc'
+[5.190s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/imu_controller/lib/python3.8/site-packages'
+[5.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_controller', 'pythonpath')
+[5.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/imu_controller/share/imu_controller/hook/pythonpath.ps1'
+[5.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siba/dev_4ws-main2/src/imu_controller/imu_controller' returned '0': PYTHONPATH=/home/siba/dev_4ws-main2/build/imu_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siba/dev_4ws-main2/install/imu_controller/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/mis_mensajes/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/bldc_can/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/path_demo/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/imu_controller/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/dc_motor/lib/python3.8/site-packages:/home/siba/dev_4ws-main2/install/GAZEBO_description/lib/python3.8/site-packages:/home/siba/ros2_ws/install/fresas/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/siba/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/siba/ros2_ws/install/dc_motor_controller/lib/python3.8/site-packages:/home/siba/ros2_ws/install/dc_motor_interfaces/lib/python3.8/site-packages:/home/siba/ros2_ws/src/fresas/install/fresas/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/imu_controller build --build-base /home/siba/dev_4ws-main2/build/imu_controller/build install --record /home/siba/dev_4ws-main2/build/imu_controller/install.log --install-scripts $base/lib/imu_controller --single-version-externally-managed install_data
+[5.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siba/dev_4ws-main2/install/imu_controller/share/imu_controller/hook/pythonpath.dsv'
+[5.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siba/dev_4ws-main2/install/imu_controller/share/imu_controller/hook/pythonpath.sh'
+[5.194s] Level 1:colcon.colcon_core.environment:checking '/home/siba/dev_4ws-main2/install/imu_controller/bin'
+[5.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_controller)
+[5.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/imu_controller/share/imu_controller/package.ps1'
+[5.196s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siba/dev_4ws-main2/install/imu_controller/share/imu_controller/package.dsv'
+[5.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/imu_controller/share/imu_controller/package.sh'
+[5.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/imu_controller/share/imu_controller/package.bash'
+[5.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/siba/dev_4ws-main2/install/imu_controller/share/imu_controller/package.zsh'
+[5.199s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siba/dev_4ws-main2/install/imu_controller/share/colcon-core/packages/imu_controller)
+[5.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.202s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.205s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.223s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.223s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.223s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.256s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siba/dev_4ws-main2/install/local_setup.ps1'
+[5.258s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/siba/dev_4ws-main2/install/_local_setup_util_ps1.py'
+[5.261s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siba/dev_4ws-main2/install/setup.ps1'
+[5.268s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siba/dev_4ws-main2/install/local_setup.sh'
+[5.269s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/siba/dev_4ws-main2/install/_local_setup_util_sh.py'
+[5.270s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siba/dev_4ws-main2/install/setup.sh'
+[5.274s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siba/dev_4ws-main2/install/local_setup.bash'
+[5.275s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siba/dev_4ws-main2/install/setup.bash'
+[5.281s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siba/dev_4ws-main2/install/local_setup.zsh'
+[5.282s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siba/dev_4ws-main2/install/setup.zsh'

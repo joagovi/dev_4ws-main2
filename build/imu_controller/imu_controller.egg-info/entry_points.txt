@@ -1,0 +1,7 @@
+[console_scripts]
+imu_node = imu_controller.imu_node:main
+imu_node_inc = imu_controller.imu_node_inc:main
+test_node = imu_controller.test_node:main
+three_imu_nodes = imu_controller.three_imu_nodes:main
+two_imu_nodes = imu_controller.two_imu_nodes:main
+
